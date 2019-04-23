@@ -1,0 +1,10 @@
+
+[user]
+	name = Doru-Florin Blanzeanu
+	email = blanzeanu.doru@gmail.com
+[alias]
+	l = log --decorate --graph --oneline
+	ld = log --decorate --graph --oneline --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	co = checkout
+	ci = commit --signoff
+	st = status
